@@ -1,0 +1,21 @@
+@relation arabicReadingDifficulty
+
+@attribute word_count NUMERIC
+@attribute sentence_count NUMERIC
+@attribute sentence_length NUMERIC
+@attribute lemma_ratio NUMERIC
+@attribute p95 NUMERIC
+@attribute mean NUMERIC
+@attribute median NUMERIC
+@attribute noun NUMERIC
+@attribute verb NUMERIC
+@attribute prep NUMERIC
+@attribute part NUMERIC
+@attribute conj NUMERIC
+@attribute adv NUMERIC	
+@attribute adj NUMERIC
+@attribute word_length NUMERIC
+@attribute difficulty {1.0, 2.0, 3.0, 4.0}
+
+@data 
+40.0,7.0,5.7142857142857135,2671.0,2363.0,1021.2647058823527,1337.0,7.05,0.6764705882352942,0.0,0.29411764705882354,0.0,0.0,0.0,0.029411764705882356,

@@ -1,8 +1,6 @@
 import re
 class LangDoc:
-	''' this is a descriptor '''
-	''' things that are the same for all instances'''
-	language = 'french'
+	language = 'arabic'
 	
 	def __init__(self, originalText, lemmaText, title, difficulty = -1):
 		'''things that are different for each class'''
